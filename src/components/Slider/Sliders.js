@@ -2,11 +2,13 @@ import React from "react";
 import "./Slider.scss";
 import Job from "../../images/Job.png";
 import download from "../../images/download.jpg";
-
+import Streaming from "../../images/Football.png";
 import Task from "../../images/Task.png";
 import File from "../../images/File.png";
 import Customer from "../../images/Customer.png";
-import { Link } from "react-router-dom";
+
+import Office from "../../images/Office.png";
+//import { Link } from "react-router-dom";
 
 const Sliders = () => {
   return (
@@ -44,7 +46,7 @@ const Sliders = () => {
                 <img src={download} alt="sport" />
               </a>
             </div>
-            <div class="text">Sport</div>
+            <div class="text"></div>
           </div>
         </div>
 
@@ -76,7 +78,7 @@ const Sliders = () => {
             <div class="image">
               <img src={download} alt="travel" />
             </div>
-            <div class="text">Travel</div>
+            <div class="text"></div>
           </div>
         </div>
 
@@ -85,7 +87,53 @@ const Sliders = () => {
             <div class="image">
               <img src={download} alt="art" />
             </div>
-            <div class="text">Art</div>
+            <div class="text"></div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <a href="https://football-fourm.vercel.app/">
+                <img src={Streaming} alt="travel" />
+              </a>
+            </div>
+            <div class="text">Football streaming</div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-3 h-3">
+          <div class="gallery-item">
+            <div class="image">
+              <a href="https://task-manager-psi-one.vercel.app/">
+                <img src={Office} alt="people" />
+              </a>
+            </div>
+            <div class="text">
+              <div>Office Workspace</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-container h-2">
+          <div class="gallery-item">
+            <div class="image">
+              <a href="">
+                <img src={download} alt="sport" />
+              </a>
+            </div>
+            <div class="text"></div>
+          </div>
+        </div>
+
+        <div class="gallery-container w-2">
+          <div class="gallery-item">
+            <div class="image">
+              <a href="">
+                <img src={download} alt="fitness" />
+              </a>
+            </div>
+            <div class="text"></div>
           </div>
         </div>
 
@@ -94,7 +142,18 @@ const Sliders = () => {
             <div class="image">
               <img src={download} alt="cars" />
             </div>
-            <div class="text">Cars</div>
+            <div class="text"></div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <div class="image">
+              <a href="">
+                <img src={download} alt="travel" />
+              </a>
+            </div>
+            <div class="text"></div>
           </div>
         </div>
       </div>
