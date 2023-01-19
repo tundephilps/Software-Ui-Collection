@@ -7,6 +7,7 @@ import Task from "../../images/Task.png";
 import File from "../../images/File.png";
 import Customer from "../../images/Customer.png";
 
+import social from "../../images/social.png";
 import Office from "../../images/Office.png";
 //import { Link } from "react-router-dom";
 
@@ -149,11 +150,11 @@ const Sliders = () => {
         <div class="gallery-container">
           <div class="gallery-item">
             <div class="image">
-              <a href="">
-                <img src={download} alt="travel" />
+              <a href="https://social-media-ui-rust.vercel.app/">
+                <img src={social} alt="Social" />
               </a>
             </div>
-            <div class="text"></div>
+            <div class="text">Social Media UI</div>
           </div>
         </div>
       </div>
