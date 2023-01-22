@@ -6,10 +6,12 @@ import Streaming from "../../images/Football.png";
 import Task from "../../images/Task.png";
 import File from "../../images/File.png";
 import Customer from "../../images/Customer.png";
+import messanger from "../../images/messanger.png";
+import glass from "../../images/glass.png";
+import Video from "../../images/Video.png";
 
 import social from "../../images/social.png";
 import Office from "../../images/Office.png";
-//import { Link } from "react-router-dom";
 
 const Sliders = () => {
   return (
@@ -43,11 +45,11 @@ const Sliders = () => {
         <div class="gallery-container h-2">
           <div class="gallery-item">
             <div class="image">
-              <a href="">
-                <img src={download} alt="sport" />
+              <a href="https://video-ui.vercel.app/">
+                <img src={Video} alt="sport" />
               </a>
             </div>
-            <div class="text"></div>
+            <div class="text">Video Channel</div>
           </div>
         </div>
 
@@ -119,22 +121,22 @@ const Sliders = () => {
         <div class="gallery-container h-2">
           <div class="gallery-item">
             <div class="image">
-              <a href="">
-                <img src={download} alt="sport" />
+              <a href="https://messanger-ui.vercel.app/">
+                <img src={messanger} alt="sport" />
               </a>
             </div>
-            <div class="text"></div>
+            <div class="text">Chat Messanger</div>
           </div>
         </div>
 
         <div class="gallery-container w-2">
           <div class="gallery-item">
             <div class="image">
-              <a href="">
-                <img src={download} alt="fitness" />
+              <a href="https://glass-henna.vercel.app/">
+                <img src={glass} alt="fitness" />
               </a>
             </div>
-            <div class="text"></div>
+            <div class="text">GlassMorphic Dashboard</div>
           </div>
         </div>
 

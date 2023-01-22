@@ -2,7 +2,7 @@ import React from "react";
 import "./App.scss";
 import Intro from "./components/Intro";
 import Sliders from "./components/Slider/Sliders";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
